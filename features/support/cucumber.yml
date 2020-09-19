@@ -1,0 +1,1 @@
+default: --no-source --collor --format pretty --format html --out report.html
