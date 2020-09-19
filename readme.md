@@ -1,0 +1,1 @@
+Projeto de automação com Ruby/Cucumber/HTTParty/RSpec para semana de imersão do GUTS-RS 2020
