@@ -6,6 +6,6 @@ class Books
     base_uri 'http://fakerestapi.azurewebsites.net'
 
     def get_books
-        self.class.get('api/Books')
+        self.class.get('/api/Books')
     end
 end
