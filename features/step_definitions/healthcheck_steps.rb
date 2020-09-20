@@ -1,6 +1,6 @@
 Dado('que faco uma requisicao GET para o endpoint de obter autores') do
     @response = @services.authors.get_authors
-    #puts @response
+    # puts @response
   end
   
   Entao('o status da resposta e {int}') do |status|
