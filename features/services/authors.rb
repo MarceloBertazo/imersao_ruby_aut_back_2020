@@ -1,7 +1,7 @@
 class Authors
     include HTTParty
 
-    header 'Content-Type' => 'application/json'
+    headers 'Content-Type' => 'application/json'
     base_uri 'http://fakerestapi.azurewebsites.net'
 
     def get_author_by_book(idBook)
