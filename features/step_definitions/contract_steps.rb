@@ -6,7 +6,7 @@ Entao('recebo uma lista de autores') do
     expect(@rand['FirstName']).to be_kind_of(String)
     expect(@rand['LastName']).to be_kind_of(String)
 
-    puts @rand
+    #puts @rand
 
   end          
   

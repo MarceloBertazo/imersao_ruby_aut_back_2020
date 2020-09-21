@@ -9,9 +9,8 @@ Dado('que faco uma requisicao GET para o endpoint de obter autores') do
   
   Dado('que faco uma requisicao GET para o endpoint de obter autores por livro') do
     @book = @services.books.get_books.sample
-    @response = @services.authors.get_author_by_book @book["ID"]
+    @response = @services.authors.get_author_by_book @book['ID']
     puts @response
-    puts @book
   end
   
   Dado('que faco uma requisicao POST para o endpoint de cadastrar autor') do
